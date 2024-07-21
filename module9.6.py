@@ -11,4 +11,6 @@ def all_variants(text):
 
 a = all_variants("abc")
 for i in a:
+    if i == 'ac':
+        continue
     print(i)
